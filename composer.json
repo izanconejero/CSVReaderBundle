@@ -1,0 +1,33 @@
+{
+	"name": "tangoman/csv-reader-bundle",
+	"description": "Symfony CSV Reader Bundle",
+	"version": "1.0.0",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Matthias Morin",
+			"email": "tangoman@free.fr"
+		},
+		{
+			"name": "Fabrice Lazzarotto"
+		}
+	],
+	"type": "library",
+	"keywords": [
+		"TangoMan",
+		"Symfony",
+		"Service",
+		"CSV Reader",
+		"Bundle"
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TangoMan\\CSVReaderBundle\\": ""
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
