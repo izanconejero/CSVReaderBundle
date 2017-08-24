@@ -9,10 +9,11 @@
 			"email": "tangoman@free.fr"
 		},
 		{
-			"name": "Fabrice Lazzarotto"
+			"name": "Fabrice Lazzarotto",
+			"email": "fabrice.lazzarotto@gmail.com"
 		}
 	],
-	"type": "library",
+	"type": "symfony-bundle",
 	"keywords": [
 		"TangoMan",
 		"Symfony",
