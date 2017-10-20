@@ -1,21 +1,18 @@
 {
-	"name": "tangoman/csv-reader-bundle",
-	"description": "Symfony CSV Reader Bundle",
+	"name": "izanconejero/csv-reader-bundle",
+	"description": "Update Symfony CSV Reader Bundle",
 	"version": "1.0.0",
 	"license": "GPL-3.0",
 	"authors": [
 		{
-			"name": "Matthias Morin",
-			"email": "tangoman@free.fr"
-		},
-		{
-			"name": "Fabrice Lazzarotto",
-			"email": "fabrice.lazzarotto@gmail.com"
+			"name": "Izan Conejero",
+			"email": "izan.conejero@fhios.es"
 		}
 	],
 	"type": "symfony-bundle",
 	"keywords": [
 		"TangoMan",
+		"IzanConejero",
 		"Symfony",
 		"Service",
 		"CSV Reader",

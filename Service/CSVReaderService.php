@@ -71,7 +71,7 @@ class CSVReaderService
         $this->file = $file;
         if (is_array($head)) {
             $this->head = $head;
-        } else {
+        } elseif($head) {
             $this->head = fgetcsv($this->handle, null, $delimiter, $enclosure, $escape);
             if ($this->head !== false) {
                 $this->hasHead = true;
@@ -121,4 +121,9 @@ class CSVReaderService
 
         return false;
     }
+
+    public function resetFile(){
+        $this->init($this->file, $this->head, $this->delimiter, $this->enclosure, $this->escape);
+    }
+
 }

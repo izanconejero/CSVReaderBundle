@@ -26,7 +26,8 @@ class CSVLine
             $line[$index] = utf8_decode($field);
         }
 
-        $this->line = array_combine($head, $line);
+        //$this->line = array_combine($head, $line);
+        $this->line= $line;
     }
 
     /**
