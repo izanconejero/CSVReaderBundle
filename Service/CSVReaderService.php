@@ -114,12 +114,16 @@ class CSVReaderService
      */
     public function readLine()
     {
+      if($this->delimiter =='tab'){
+        $line = fgetcsv($this->handle, null, "\t", $this->enclosure, $this->escape);
+      } else{
         $line = fgetcsv($this->handle, null, $this->delimiter, $this->enclosure, $this->escape);
-        if ($line !== false) {
-            return new CSVLine($this->head, $line);
-        }
+      }
+      if ($line !== false) {
+        return new CSVLine($this->head, $line);
+      }
 
-        return false;
+      return false;
     }
 
     public function resetFile(){
